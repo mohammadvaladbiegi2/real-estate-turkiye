@@ -189,19 +189,19 @@ export default function BusinessRelocation() {
           </div>
           <div className="container-cards mt-[60px] hidden xl:flex  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/location.png"
+              cover="/assets/images/location.png"
               title="Location Selection"
               desc="We assist in the process of selecting the ideal location for your business."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/listener11.png"
+              cover="/assets/images/listener11.png"
               title="Setting Up Your Business"
               desc="We help with the corporate establishment, handling compliance and legal matters."
               bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/relocation_icon.png"
+              cover="/assets/images/relocation_icon.png"
               title="Relocating Family and Staff"
               desc="Our consultation
 services will
@@ -214,7 +214,7 @@ need."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/facilitation.png"
+              cover="/assets/images/facilitation.png"
               title="Facilitation of Newcomers"
               desc="Our services include providing you with any information you may need about living in Cyprus with your family."
               bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
@@ -223,13 +223,13 @@ need."
 
           <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/location.png"
+              cover="/assets/images/location.png"
               title="Location Selection"
               desc="We assist in the process of selecting the ideal location for your business."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/listener11.png"
+              cover="/assets/images/listener11.png"
               title="Setting Up Your Business"
               desc="We help with the corporate establishment, handling compliance and legal matters."
               bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
@@ -237,7 +237,7 @@ need."
           </div>
           <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/relocation_icon.png"
+              cover="/assets/images/relocation_icon.png"
               title="Relocating Family and Staff"
               desc="Our consultation
 services will
@@ -250,7 +250,7 @@ need."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/facilitation.png"
+              cover="/assets/images/facilitation.png"
               title="Facilitation of Newcomers"
               desc="Our services include providing you with any information you may need about living in Cyprus with your family."
               bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"

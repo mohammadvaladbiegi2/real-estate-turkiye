@@ -213,19 +213,19 @@ export default function Migration() {
             </div>
             <div className="container-cards mt-[60px] hidden xl:flex  justify-center items-start gap-[20px]">
               <CardChooseCprus
-                cover="../../../public/assets/images/arrival.png"
+                cover="/assets/images/arrival.png"
                 title="Pre-arrival Planning"
                 desc="We provide a step-by-step plan that will handle every aspect of your family’s relocation process."
                 bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
               />
               <CardChooseCprus
-                cover="../../../public/assets/images/houses.png"
+                cover="/assets/images/houses.png"
                 title="Housing and Location Options"
                 desc="Together, we will discuss and review housing options according to your needs and expectations."
                 bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
               />
               <CardChooseCprus
-                cover="../../../public/assets/images/immigration.png"
+                cover="/assets/images/immigration.png"
                 title="Immigration Assistance "
                 desc="Our consultation
 services will
@@ -238,7 +238,7 @@ need."
                 bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
               />
               <CardChooseCprus
-                cover="../../../public/assets/images/support.png"
+                cover="/assets/images/support.png"
                 title="Personalized Support"
                 desc="Our services include providing you with any information you may need about living in Cyprus with your family."
                 bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
@@ -247,13 +247,13 @@ need."
 
             <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
               <CardChooseCprus
-                cover="../../../public/assets/images/arrival.png"
+                cover="/assets/images/arrival.png"
                 title="Pre-arrival Planning"
                 desc="We provide a step-by-step plan that will handle every aspect of your family’s relocation process."
                 bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
               />
               <CardChooseCprus
-                cover="../../../public/assets/images/houses.png"
+                cover="/assets/images/houses.png"
                 title="Housing and Location Options"
                 desc="Together, we will discuss and review housing options according to your needs and expectations."
                 bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
@@ -261,7 +261,7 @@ need."
             </div>
             <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
               <CardChooseCprus
-                cover="../../../public/assets/images/immigration.png"
+                cover="/assets/images/immigration.png"
                 title="Immigration Assistance "
                 desc="Our consultation
 services will
@@ -274,7 +274,7 @@ need."
                 bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
               />
               <CardChooseCprus
-                cover="../../../public/assets/images/support.png"
+                cover="/assets/images/support.png"
                 title="Personalized Support"
                 desc="Our services include providing you with any information you may need about living in Cyprus with your family."
                 bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"

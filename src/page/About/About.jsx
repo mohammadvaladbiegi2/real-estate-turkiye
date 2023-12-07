@@ -68,25 +68,25 @@ export default function About() {
           </div>
           <div className="container-cards mt-[60px] hidden xl:flex  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/listener.png"
+              cover="/assets/images/listener.png"
               title="We listen"
               desc="Our most prominent purpose is to understand and identify with your needs so we can effectively find ways to provide solutions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/target.png"
+              cover="/assets/images/target.png"
               title="We strategize"
               desc="According to your requirements, our team designs a thorough series of steps that will make the relocation process as smooth as possible."
               bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/heart.png"
+              cover="/assets/images/heart.png"
               title="We provide"
               desc="We implement our services that are based on efficient strategic planning that respond to your family’s and business’s goals and ambitions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/heart(2).png"
+              cover="/assets/images/heart(2).png"
               title="We manage"
               desc="Once you are settled, we make sure that everything is according to your expectations and your vision of the quality of our services."
               bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
@@ -95,13 +95,13 @@ export default function About() {
 
           <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/listener.png"
+              cover="/assets/images/listener.png"
               title="We listen"
               desc="Our most prominent purpose is to understand and identify with your needs so we can effectively find ways to provide solutions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/target.png"
+              cover="/assets/images/target.png"
               title="We strategize"
               desc="According to your requirements, our team designs a thorough series of steps that will make the relocation process as smooth as possible."
               bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
@@ -109,13 +109,13 @@ export default function About() {
           </div>
           <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/heart.png"
+              cover="/assets/images/heart.png"
               title="We provide"
               desc="We implement our services that are based on efficient strategic planning that respond to your family’s and business’s goals and ambitions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/heart(2).png"
+              cover="/assets/images/heart(2).png"
               title="We manage"
               desc="Once you are settled, we make sure that everything is according to your expectations and your vision of the quality of our services."
               bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"

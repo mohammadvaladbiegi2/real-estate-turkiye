@@ -100,7 +100,7 @@ export default function Homepage() {
             <div className="">
               <OurServices
                 href="/familyrelocations"
-                cover="../public/assets/images/services_cards_family_relocation_image.png"
+                cover="/assets/images/services_cards_family_relocation_image.png"
                 title="Family Relocation"
                 desc="With strategic planning, we simplify the moving process so you and your family can feel safe and confident."
               />
@@ -108,7 +108,7 @@ export default function Homepage() {
             <div className="">
               <OurServices
                 href="/businessRelocation"
-                cover="../public/assets/images/services_cards_business_relocation_image.png"
+                cover="/assets/images/services_cards_business_relocation_image.png"
                 title="Business Relocation"
                 desc="We handle the responsibility of moving your business to Cyprus, so you can focus on your business goals."
               />
@@ -116,7 +116,7 @@ export default function Homepage() {
             <div className="hidden xl:flex">
               <OurServices
                 href="/investmentOpportunities"
-                cover="../public/assets/images/services_cards_investment_schemes_image.png"
+                cover="/assets/images/services_cards_investment_schemes_image.png"
                 title="Investment plans"
                 desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
               />
@@ -125,7 +125,7 @@ export default function Homepage() {
           <div className=" xl:hidden">
             <OurServices
               href="/investmentOpportunities"
-              cover="../public/assets/images/services_cards_investment_schemes_image.png"
+              cover="/assets/images/services_cards_investment_schemes_image.png"
               title="Investment plans"
               desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
             />

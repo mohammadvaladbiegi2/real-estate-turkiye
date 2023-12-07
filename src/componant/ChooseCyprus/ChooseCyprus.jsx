@@ -19,25 +19,25 @@ export default function ChooseCyprus() {
         </div>
         <div className="container-cards mt-[60px] hidden xl:flex  justify-center items-start gap-[20px]">
           <CardChooseCprus
-            cover="../../../public/assets/images/money.png"
+            cover="/assets/images/money.png"
             title="Progressive tax system"
             desc="Offering one of the most attractive tax regimes in Europe"
             bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
           />
           <CardChooseCprus
-            cover="../../../public/assets/images/haze.png"
+            cover="/assets/images/haze.png"
             title=" Stunning weather and climate"
             desc="Enjoy a high quality of life with over 324 days of sun annually"
             bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
           />
           <CardChooseCprus
-            cover="../../../public/assets/images/human-resources.png"
+            cover="/assets/images/human-resources.png"
             title="Blooming expat community"
             desc="Become part of an increasingly diverse community"
             bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
           />
           <CardChooseCprus
-            cover="../../../public/assets/images/house.png"
+            cover="/assets/images/house.png"
             title="Family-oriented values"
             desc="Excellent education standards and extremely low crime rates"
             bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
@@ -46,13 +46,13 @@ export default function ChooseCyprus() {
 
         <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
           <CardChooseCprus
-            cover="../../../public/assets/images/money.png"
+            cover="/assets/images/money.png"
             title="Progressive tax system"
             desc="Offering one of the most attractive tax regimes in Europe"
             bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
           />
           <CardChooseCprus
-            cover="../../../public/assets/images/haze.png"
+            cover="/assets/images/haze.png"
             title=" Stunning weather and climate"
             desc="Enjoy a high quality of life with over 324 days of sun annually"
             bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
@@ -60,13 +60,13 @@ export default function ChooseCyprus() {
         </div>
         <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
           <CardChooseCprus
-            cover="../../../public/assets/images/human-resources.png"
+            cover="/assets/images/human-resources.png"
             title="Blooming expat community"
             desc="Become part of an increasingly diverse community"
             bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
           />
           <CardChooseCprus
-            cover="../../../public/assets/images/house.png"
+            cover="/assets/images/house.png"
             title="Family-oriented values"
             desc="Excellent education standards and extremely low crime rates"
             bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
