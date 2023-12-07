@@ -1,6 +1,4 @@
 import React from "react";
-import callImage from "../../../public/assets/images/contact-tel-icon.png";
-import emailImage from "../../../public/assets/images/contact-email-icon.png";
 import "./ContactUs.css";
 export default function ContactUs() {
   return (
@@ -14,7 +12,7 @@ export default function ContactUs() {
       <div className="flex flex-col items-center gap-8">
         <div className="flex flex-col items-center gap-[6px]">
           <span className="w-10 h-10 bgStyleIcon py-[6px] ps-[6.5px] pe-[5.5px]">
-            <img src={callImage} alt="" />
+            <img src="/assets/images/contact-tel-icon.png" alt="" />
           </span>
           <span className="MontserratMedium text-xl font-semibold text-color1">
             +357 9056759
@@ -22,7 +20,7 @@ export default function ContactUs() {
         </div>
         <div className="flex flex-col items-center gap-[10px]">
           <span className="w-10 h-10 bgStyleIcon p-[6px]">
-            <img src={emailImage} alt="" />
+            <img src="/assets/images/contact-email-icon.png" alt="" />
           </span>
           <span className="MontserratMedium text-xl font-semibold text-color1">
             contact@pamrelocation.com
