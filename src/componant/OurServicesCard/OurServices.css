@@ -1,0 +1,44 @@
+.main-card{
+    display: flex;
+    height: 515px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 20px;
+background: var(--pam_color6, #FFF);
+
+/* Medium Drop */
+box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+
+}
+
+
+.img-card{
+    border-radius: 19px 19px 19px 0px;
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 85.45%), lightgray -348.157px -219.85px / 280.987% 276.978% no-repeat;
+}
+
+
+.title-card{
+    color: var(--pam_color5, #434364);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: AvenirNext;
+}
+
+.desc-card{
+    color: var(--pam_color5, #434364);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: AvenirNext;
+letter-spacing: 0.5px;
+}
+
+.btn-find{
+    border-radius: 88.166px;
+background: var(--pam_color_linear9, linear-gradient(96deg, #FFEB80 -22.07%, #FDBFA3 123.25%));
+box-shadow: 0px 3.52663px 35.26627px 0px rgba(255, 185, 175, 0.30);
+}
+
+.btn-link{
+    color: var(--pam_color1, #6D31D0);
+font-family: MontserratMedium;
+}
