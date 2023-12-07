@@ -1,5 +1,5 @@
 import React from "react";
-import "./migration.css";
+import "./Migration.css";
 import ContactUs from "../../componant/ContactUs/ContactUs";
 import FrequentlyAskedQuestionsCard from "../../componant/FrequentlyAskedQuestionsCard/FrequentlyAskedQuestionsCard";
 import { Swiper, SwiperSlide } from "swiper/react";
