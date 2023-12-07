@@ -138,12 +138,12 @@ export default function Homepage() {
           <div className="w-full relative flex justify-center overflow-hidden">
             <img
               className="w-full h-full max-[1000px]:hidden"
-              src="../../../public/assets/images/image-villa2.png"
+              src="/assets/images/image-villa2.png"
             />
             <div className="absolute top-0 right-0 w-20 h-full bg-color6 bg-opacity-50 max-xl:hidden"></div>
             <img
               className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden"
-              src="../../../public/assets/images/image-villas2Big.png"
+              src="/assets/images/image-villas2Big.png"
             />
           </div>
           <div className="flex-none flex flex-col items-center gap-6 max-md:py-10 md:w-[480px] max-md:w-[400px]">
@@ -178,12 +178,12 @@ export default function Homepage() {
           <div className="w-full relative flex justify-center overflow-hidden">
             <img
               className="w-full h-full max-[1000px]:hidden"
-              src="../../../public/assets/images/image-villas.png"
+              src="/assets/images/image-villas.png"
             />
             <div className="absolute top-0 left-0 w-20 h-full bg-color6 bg-opacity-50 max-xl:hidden"></div>
             <img
               className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden"
-              src="../../../public/assets/images/image-villaBig.png"
+              src="/assets/images/image-villaBig.png"
             />
           </div>
         </div>
@@ -193,13 +193,10 @@ export default function Homepage() {
       {/* map */}
       <section>
         <img
-          src="../../public/assets/images/e876fcd08144f84de5886c32ab47f2a0.png"
+          src="/assets/images/e876fcd08144f84de5886c32ab47f2a0.png"
           className="w-full hidden xl:block"
         />
-        <img
-          src="../../public/assets/images/maplg.png"
-          className="w-full  xl:hidden"
-        />
+        <img src="/assets/images/maplg.png" className="w-full  xl:hidden" />
       </section>
       {/* Who we are */}
       <section className="bgHomePageWhoWeAre flex justify-between gap-4 max-xl:gap-[44px] max-xl:flex-col px-[130px] max-md:px-20 max-[480px]:px-5 py-10">
@@ -232,7 +229,7 @@ export default function Homepage() {
         </div>
         <div className="flex max-sm:flex-col gap-[33px] max-sm:gap-[14px] w-[580px] max-sm:w-full h-[440px] max-sm:h-full max-sm:items-center bg-color7 rounded-3xl p-5">
           <div className="flex-none">
-            <img src="../../public/assets/images/Rectangle338.png" alt="" />
+            <img src="/assets/images/Rectangle338.png" alt="" />
           </div>
           <div className="flex flex-col max-sm:items-center gap-4 mt-6 max-sm:mt-0">
             <div className="text-xl uppercase text-color1 MontserratMedium font-semibold">
@@ -262,25 +259,25 @@ export default function Homepage() {
           </div>
           <div className="container-cards mt-[60px] hidden xl:flex  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/listener.png"
+              cover="/assets/images/listener.png"
               title="We listen"
               desc="Our most prominent purpose is to understand and identify with your needs so we can effectively find ways to provide solutions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/target.png"
+              cover="/assets/images/target.png"
               title="We strategize"
               desc="According to your requirements, our team designs a thorough series of steps that will make the relocation process as smooth as possible."
               bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/heart.png"
+              cover="/assets/images/heart.png"
               title="We provide"
               desc="We implement our services that are based on efficient strategic planning that respond to your family’s and business’s goals and ambitions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/heart(2).png"
+              cover="/assets/images/heart(2).png"
               title="We manage"
               desc="Once you are settled, we make sure that everything is according to your expectations and your vision of the quality of our services."
               bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
@@ -289,13 +286,13 @@ export default function Homepage() {
 
           <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/listener.png"
+              cover="/assets/images/listener.png"
               title="We listen"
               desc="Our most prominent purpose is to understand and identify with your needs so we can effectively find ways to provide solutions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/target.png"
+              cover="/assets/images/target.png"
               title="We strategize"
               desc="According to your requirements, our team designs a thorough series of steps that will make the relocation process as smooth as possible."
               bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
@@ -303,13 +300,13 @@ export default function Homepage() {
           </div>
           <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
             <CardChooseCprus
-              cover="../../../public/assets/images/heart.png"
+              cover="/assets/images/heart.png"
               title="We provide"
               desc="We implement our services that are based on efficient strategic planning that respond to your family’s and business’s goals and ambitions."
               bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
             />
             <CardChooseCprus
-              cover="../../../public/assets/images/heart(2).png"
+              cover="/assets/images/heart(2).png"
               title="We manage"
               desc="Once you are settled, we make sure that everything is according to your expectations and your vision of the quality of our services."
               bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"

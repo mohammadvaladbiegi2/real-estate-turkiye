@@ -5,7 +5,7 @@ export default function FrequentlyAskedQuestionsCard() {
   return (
     <>
       <div className="Nav-container bg-color6 cursor-pointer">
-        <img src="../public/assets/images/q&a_slider_card1_image.png" />
+        <img src="/assets/images/q&a_slider_card1_image.png" />
         <span className="main-text">
           Question: How is the business environment in Cyprus?
         </span>
