@@ -4,6 +4,7 @@ import BusinessRelocation from "./page/BusinessRelocation/BusinessRelocation";
 import GeneralDisclaimer from "./page/GeneralDisclaimer/GeneralDisclaimer";
 import Homepage from "./page/Homepage/Homepage";
 const LazyHomepage = React.lazy(() => import("./page/Homepage/Homepage"));
+const LazyAbout = React.lazy(() => import("./page/About/About"));
 import InvestmentOpportunities from "./page/InvestmentOpportunities/InvestmentOpportunities";
 import Services from "./page/Services/Services";
 import Migration from "./page/Migration/Migration";
@@ -20,7 +21,15 @@ const routs = [
       </React.Suspense>
     ),
   },
-  { path: "/about", element: <About /> },
+  {
+    path: "/about",
+    element: (
+      <React.Suspense fallback={<Loader />}>
+        <LazyAbout />
+      </React.Suspense>
+    ),
+  },
+  // { path: "/about", element: <About /> },
   { path: "/businessRelocation", element: <BusinessRelocation /> },
   { path: "/generalDisclaimer", element: <GeneralDisclaimer /> },
   { path: "/investmentOpportunities", element: <InvestmentOpportunities /> },
