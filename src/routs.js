@@ -16,7 +16,7 @@ const routs = [
     path: "/",
     element: (
       <React.Suspense fallback={<Loader />}>
-        <Homepage />
+        <LazyHomepage />
       </React.Suspense>
     ),
   },
