@@ -7,10 +7,10 @@ function App() {
   let rout = useRoutes(routs);
 
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Navbar />
       {rout}
-    </>
+    </div>
   );
 }
 
